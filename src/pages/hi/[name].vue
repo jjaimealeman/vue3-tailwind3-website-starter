@@ -16,7 +16,7 @@
         <ButtonRepo />
       </div>
     </div>
-    <div class="mx-auto max-w-screen-xl">
+    <div class="mx-auto max-w-screen-xl text-slate-600">
       <ul class="list-disc">
         <li>
           the route is nested and dynamic:
@@ -33,7 +33,7 @@
 </template>
 
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
+import { useI18n } from 'vue-i18n';
 
 const props = defineProps<{ name: string }>()
 const { t } = useI18n()

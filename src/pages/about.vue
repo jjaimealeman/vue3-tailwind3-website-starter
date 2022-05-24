@@ -16,7 +16,7 @@
         <ButtonRepo />
       </div>
     </div>
-    <div class="mx-auto max-w-screen-xl">
+    <div class="mx-auto max-w-screen-xl text-slate-600">
       <ul class="list-disc">
         <li>
           use another layout, see
