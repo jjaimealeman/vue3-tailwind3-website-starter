@@ -11,6 +11,13 @@ module.exports = {
   //     },
   //   },
   // },
+    theme: {
+		fontFamily: {
+			'raleway': ['Raleway', 'sans-serif'],
+			'montserrat': ['Montserrat', 'sans-serif']
+		}
+
+    },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/line-clamp'),
