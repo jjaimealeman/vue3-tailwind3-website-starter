@@ -16,6 +16,7 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'comma-dangle': ['error', 'only-multiline'],
+    'vue/multi-word-component-names': 'off'
   },
   globals: {
     defineProps: 'readonly',
