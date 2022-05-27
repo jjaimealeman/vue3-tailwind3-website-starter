@@ -11,6 +11,7 @@ declare module 'vue' {
     LanguageSwitcher: typeof import('./components/LanguageSwitcher.vue')['default']
     MyFooter: typeof import('./components/MyFooter.vue')['default']
     MyHeader: typeof import('./components/MyHeader.vue')['default']
+    README: typeof import('./components/README.md')['default']
   }
 }
 
