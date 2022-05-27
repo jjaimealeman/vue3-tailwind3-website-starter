@@ -1,26 +1,26 @@
 <template>
-  <form>
-    <label>{{ t('language') }}</label>
-    <select class="select select-ghost" v-model="locale">
-      <option value="en">en</option>
-      <option value="es">es</option>
-    </select>
-  </form>
-  <p>{{ t('hello') }}</p>
+    <form class="text-white ml-8">
+        <label>{{ t('language') }}</label>
+        <select class="select select-ghost" v-model="locale">
+            <option value="en">en</option>
+            <option value="es">es</option>
+        </select>
+    </form>
+    <p class="text-accent">{{ t('hello') }}</p>
 </template>
 
 <script>
 import { useI18n } from 'vue-i18n'
 
 export default {
-  name: 'App',
-  setup() {
-    const { locale, t } = useI18n({
-      inheritLocale: true
-    })
+    name: 'App',
+    setup() {
+        const { locale, t } = useI18n({
+            inheritLocale: true
+        })
 
-    return { locale, t }
-  }
+        return { locale, t }
+    }
 }
 </script>
 
