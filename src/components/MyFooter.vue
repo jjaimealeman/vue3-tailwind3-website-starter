@@ -21,23 +21,23 @@
     </div>
     <div>
       <span class="footer-title">Services</span>
-      <a class="link-hover link">Branding</a>
-      <a class="link-hover link">Design</a>
-      <a class="link-hover link">Marketing</a>
-      <a class="link-hover link">Advertisement</a>
+      <a href="#" class="link-hover link">Branding</a>
+      <a href="#" class="link-hover link">Design</a>
+      <a href="#" class="link-hover link">Marketing</a>
+      <a href="#" class="link-hover link">Advertisement</a>
     </div>
     <div>
       <span class="footer-title">Company</span>
-      <a class="link-hover link">About us</a>
-      <a class="link-hover link">Contact</a>
-      <a class="link-hover link">Jobs</a>
-      <a class="link-hover link">Press kit</a>
+      <a href="#" class="link-hover link">About us</a>
+      <a href="#" class="link-hover link">Contact</a>
+      <a href="#" class="link-hover link">Jobs</a>
+      <a href="#" class="link-hover link">Press kit</a>
     </div>
     <div>
       <span class="footer-title">Legal</span>
-      <a class="link-hover link">Terms of use</a>
-      <a class="link-hover link">Privacy policy</a>
-      <a class="link-hover link">Cookie policy</a>
+      <a href="#" class="link-hover link">Terms of use</a>
+      <a href="#" class="link-hover link">Privacy policy</a>
+      <a href="#" class="link-hover link">Cookie policy</a>
     </div>
   </footer>
   <slot></slot>
